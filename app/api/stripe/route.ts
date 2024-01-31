@@ -44,7 +44,7 @@ export async function GET() {
             currency: "INR",
             product_data: {
               name: "SynthX Pro",
-              description: "Create Custom AI Companions"
+              description: "Unlimited AI Generations"
             },
             unit_amount: 999,
             recurring: {
@@ -61,7 +61,7 @@ export async function GET() {
 
     return new NextResponse(JSON.stringify({ url: stripeSession.url }))
   } catch (error) {
-    console.log("[STRIPE]", error);
+    console.log("[STRIPE_ERROR]", error);
     return new NextResponse("Internal Error", { status: 500 });
   }
 };
