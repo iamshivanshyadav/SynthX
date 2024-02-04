@@ -28,7 +28,7 @@ SynthX is a versatile project featuring a collection of AI-powered tools that sp
 
 ## Demo
 
-Explore the capabilities of SynthX by visiting our hosted application [here](#).
+Explore the capabilities of SynthX by visiting our hosted application [here](https://synthx-ai.netlify.app/).
 
 ## Getting Started
 
